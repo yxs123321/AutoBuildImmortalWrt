@@ -67,6 +67,9 @@ elif [ "$count" -gt 1 ]; then
       done
       echo "ports of device 'br-lan' are update." >> $LOGFILE
    fi
+   # 修改软路由标题名称
+   uci set system.@system[0].hostname='OpenWRT'
+   uci commit system
    # LAN口设置静态IP
    uci set network.lan.proto='static'
    # 多网口设备 支持修改为别的ip地址
