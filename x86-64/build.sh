@@ -57,6 +57,7 @@ PACKAGES="$PACKAGES kmod-usb-net"
 PACKAGES="$PACKAGES kmod-usb-net-cdc-ether"
 PACKAGES="$PACKAGES kmod-usb-net-rndis"
 PACKAGES="$PACKAGES usbutils"
+PACKAGES="$PACKAGES luci-i18n-socat-zh-cn"
 # 增加几个必备组件 方便用户安装iStore
 PACKAGES="$PACKAGES fdisk"
 PACKAGES="$PACKAGES script-utils"
