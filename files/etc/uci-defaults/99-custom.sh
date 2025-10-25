@@ -82,7 +82,7 @@ elif [ "$count" -gt 1 ]; then
     # 配置路由名字
     uci set system.@system[0].hostname='iStoreOS'
     uci commit system
-  
+
     # 查找 br-lan 设备 section
     section=$(uci show network | awk -F '[.=]' '/\.@?device\[\d+\]\.name=.br-lan.$/ {print $2; exit}')
     if [ -z "$section" ]; then
