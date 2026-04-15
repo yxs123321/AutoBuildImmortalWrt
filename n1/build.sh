@@ -28,8 +28,8 @@ PACKAGES="$PACKAGES luci-app-openclash"
 PACKAGES="$PACKAGES luci-i18n-homeproxy-zh-cn"
 PACKAGES="$PACKAGES openssh-sftp-server"
 PACKAGES="kmod-usb-net kmod-usb-net-cdc-ether kmod-usb-net-rndis usbutils kmod-usb2 kmod-usb3"
-PACKAGES="luci-i18n-smartdns-zh-cn"
 PACKAGES="luci-i18n-cifs-mount-zh-cn"
+PACKAGES="luci-i18n-samba4-zh-cn"
 # 文件管理器
 PACKAGES="$PACKAGES luci-i18n-filemanager-zh-cn"
 # 判断是否需要编译 Docker 插件
